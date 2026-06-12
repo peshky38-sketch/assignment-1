@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Clone</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* top navigation */
+.nav {
+    text-align: right;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* logo */
+h1 {
+    font-size: 70px;
+    font-weight: normal;
+    margin-top: 120px;
+}
+
+/* search box */
+input[type="text"] {
+    width: 450px;
+    max-width: 80%;
+    padding: 12px;
+}
+
+/* buttons */
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 8px 14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<div class="nav">
+    <a href="https://mail.google.com" target="_blank">Gmail</a>
+    <a href="https://www.google.com/imghp" target="_blank">Images</a>
+</div>
+
+<!-- LOGO -->
+<h1>Google</h1>
+
+<!-- SEARCH -->
+<form action="https://www.google.com/search" method="GET">
+    <input type="text" name="q" placeholder="Search Google">
+    <br>
+    <input type="submit" value="Google Search">
+    <input type="submit" name="btnI" value="I'm Feeling Lucky">
+</form>
+
+<a href="index.html">⬅ Back to Home</a>
+
+</body>
+</html>
